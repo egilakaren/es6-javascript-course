@@ -1,0 +1,24 @@
+{
+  "name": "ES6-javascript-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/egilakaren/ES6-javascript-course.git",
+  "author": "egilakaren <egilakaren@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w",
+    "m01e01": "babel ./js/exerc_01.js -o ./bundle.js -w",
+    "m01e02": "babel ./js/exerc_02.js -o ./bundle.js -w",
+    "m01e03": "babel ./js/exerc_03.js -o ./bundle.js -w",
+    "m01e04": "babel ./js/exerc_04.js -o ./bundle.js -w",
+    "m01e05": "babel ./js/exerc_05.js -o ./bundle.js -w",
+    "m01e06": "babel ./js/exerc_06.js -o ./bundle.js -w",
+    "m01e07": "babel ./js/exerc_07.js -o ./bundle.js -w"
+  }
+}
